@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "platform",
+  "version": "${version}",
+  "name": "Platform",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.blackgear.platform.fabric.PlatformFabric"
+    ]
+  },
+  "mixins": [
+    "platform.mixins.json",
+    "platform-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": ">=1.18.2"
+  }
+}
